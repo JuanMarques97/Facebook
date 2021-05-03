@@ -1,0 +1,215 @@
+body
+{
+	background-color: #f0f2f5;
+	overflow-x: hidden;
+	font-family: Helvetica,Arial,sans-serif;
+}
+ul li
+{
+	list-style: none;
+}
+/*conf do logo facebook*/
+#layout
+{
+	margin-top: 16%;
+}
+.imgface
+{
+	margin-left: -5%;
+}
+h2.LegImg
+{
+	color: #1c1e21;
+	font-size: 28px;
+	padding: 0px 0px 20px;
+}
+/*conf do form login facebook*/
+#LayoutForm
+{
+	margin-top: 12%;
+	text-align: center;
+	
+}
+.border /*borda e tamanho do form*/
+{
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  border-radius: 7px; 
+  background-color: white;
+  box-shadow: 2px 2px 3px 1px #aaaaaa;
+  width: 24.75em;
+  height: 349px ;
+  margin-left: 5%;
+}
+div.form-group/*centralizar o form*/
+{
+	margin-left: 7%;
+	margin-right: 7%;
+}
+input#email-usuario.form-control, input#senha-usuario.form-control/*versao mobile*/
+{
+	width:115%;
+	height:52px;
+	border-radius: 7px;
+	font-size: 17px;
+	border-color: ;
+	margin-left: -7.5%;
+}
+input.btn.btn-primary/*versao mobile*/
+{
+	width:100%;
+	height:52px;
+	font-size:20px;
+}
+input.btn.btn-success
+{
+width:166.16px;
+height:48px;
+font-size:17px;
+padding: 0px 16px;
+background-color: #42b72a;
+}
+/*criar pagina, debaixo do form login*/
+.CriaPag
+{
+	font-size: 14px;
+	margin-left: -5%;
+}
+.CriaPag a 
+{
+	color: black;
+	font-size: 14px;
+}
+/*rodape*/
+.margem
+{
+	margin-left: -15px;
+	margin-top: 17%;
+}
+footer a
+{
+	font-size: 12px;
+}
+.marginlang ul li
+{
+	display: inline-block;/*tirar da vertical e colocar na horizontal*/
+	padding: 0px 0px 0px 10px;
+}
+.marginlang
+{
+	margin-left: -48px;
+	padding-left: 
+}
+.margininter ul li
+{
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+}
+.margininter
+{
+	margin-right: 0px;
+	margin-left: -60px;
+}
+footer span
+{
+	font-size: 11px;
+	color: #737373;
+}
+.grupo
+{
+	margin-left: -15px;
+}
+.desktop {
+    opacity: 1;
+}
+/*Media query*/ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) 
+{
+	body
+	{
+		background-color: ;
+	}
+
+form.border /*tamanho do form*/
+	{
+  		margin-top: -50%;
+  		width: 19.5em;
+  		height: 349px;
+  		margin-left: 0%;
+	}
+	.desktop 
+	{
+    opacity: 0;
+	}
+	.imgface
+	{
+		text-align: center;
+	}
+	/*Rodapé*/
+	.marginlang/*idiomas*/
+	{
+		margin-top: -30%;
+	}
+	footer .mobile
+	{
+	margin-top: -85%;
+	text-align: center;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+	/*body
+	{
+		background-color: yellow;
+	}*/
+	.CriaPag
+	{
+	margin-left: -15%;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+	/*body
+	{
+		background-color: green;
+	}*/
+	.CriaPag
+	{
+	margin-left:38%;
+	}
+	#LayoutForm
+	{
+
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+	/*body
+	{
+		background-color: gray;
+	}*/
+	.CriaPag
+	{
+	margin-left: 0%;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+	/*body
+	{
+		background-color: orange;
+	}*/
+	.CriaPag
+	{
+	margin-left: -15%;
+	}
+}
